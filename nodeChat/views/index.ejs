@@ -1,0 +1,17 @@
+<!-- 追加↓-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="/javascripts/chat.js"></script>
+<script>
+//  var socket = io.connect('http://www6052ua.sakura.ne.jp:3000');
+//  socket.on('news', function (data) {
+//    console.log(data);
+//    socket.emit('my other event', { my: 'data' });
+//  });
+</script>
+<!-- 追加↑-->
+<!--
+<h1><%= title %></h1>
+<p>Welcome to <%= title %></p>
+-->
+<div id="chat"><div id="nickname"><form id="set-nickname" class="wrap"><p>Please type in your nickname and press enter.</p><input id="nick"><p id="nickname-err">Nickname already in use</p></form></div><div id="connecting"><div class="wrap">Connecting to socket.io server</div></div><div id="messages"><div id="nicknames"></div><div id="lines"></div></div><form id="send-message"><input id="message"><button>Send</button></form></div>
